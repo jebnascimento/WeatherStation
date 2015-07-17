@@ -21,6 +21,10 @@
 
 */
 
+/*
+	For avoiding any error you should use the libraries.
+*/
+
 #include <DS1307.h>
 #include <SD.h>
 #include <SPI.h>
