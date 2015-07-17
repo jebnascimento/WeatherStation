@@ -33,7 +33,7 @@
 #include "string.h"
 
 #define DHTPIN			2				// what pin we're connected to
-#define DHTTYPE			DHT22			// DHT 22  (AM2302)
+#define DHTTYPE			DHT22				// DHT 22  (AM2302)
 #define RTC_SCL			A5				// Serial Clock for TWI protocol
 #define RTC_SDA			A4				//Data line for TWI protocol
 
