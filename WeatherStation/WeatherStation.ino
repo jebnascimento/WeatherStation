@@ -18,8 +18,8 @@
 
 #define DHTPIN			2				// what pin we're connected to
 #define DHTTYPE			DHT22			// DHT 22  (AM2302)
-#define RTC_SCL			A5				
-#define RTC_SDA			A4
+#define RTC_SCL			A5				// Serial Clock for TWI protocol
+#define RTC_SDA			A4				//Data line for TWI protocol
 
 
 
@@ -29,7 +29,7 @@
 #define SAMPLE_DIVIDER			10
 
 
-//Modulo RTC DS1307 ligado as portas A4 e A5 do Arduino 
+//Module RTC DS1307 connected to A4 and A5 ports
 DS1307 rtc(RTC_SDA, RTC_SCL);
 DHT dht(DHTPIN, DHTTYPE);
 
