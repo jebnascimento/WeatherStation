@@ -1,5 +1,17 @@
 
 /*
+	
+  This example code is in the public domain.
+
+  modified 17 july 2015
+  by Eduardo Nascimento
+
+
+*/
+
+
+
+/*
 
 * SD card attached to SPI bus as follows:
 ** MOSI - pin 11
