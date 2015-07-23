@@ -1,11 +1,5 @@
 
 /*
-	
-  This example code is in the public domain.
-
-  modified 17 july 2015
-  by Eduardo Nascimento
-
 
 */
 
